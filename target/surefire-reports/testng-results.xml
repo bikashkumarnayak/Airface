@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="104337" started-at="2020-08-01T21:59:28 IST" finished-at="2020-08-01T22:01:13 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="104337" started-at="2020-08-01T21:59:28 IST" finished-at="2020-08-01T22:01:13 IST">
+      <class name="com.abstech.airface.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.abstech.airface.HomePage@45c7e403]" name="initialize" is-config="true" duration-ms="51531" started-at="2020-08-01T21:59:28 IST" finished-at="2020-08-01T22:00:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="homepageNav()[pri:0, instance:com.abstech.airface.HomePage@45c7e403]" name="homepageNav" duration-ms="51821" started-at="2020-08-01T22:00:20 IST" finished-at="2020-08-01T22:01:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageNav -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.abstech.airface.HomePage@45c7e403]" name="teardown" is-config="true" duration-ms="909" started-at="2020-08-01T22:01:12 IST" finished-at="2020-08-01T22:01:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.abstech.airface.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

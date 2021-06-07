@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="7" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-06T16:52:10 IST" name="Airface" finished-at="2021-06-06T16:56:12 IST" duration-ms="242150">
+    <groups>
+    </groups>
+    <test started-at="2021-06-06T16:52:10 IST" name="HomePage" finished-at="2021-06-06T16:52:22 IST" duration-ms="12354">
+      <class name="com.abstech.airface.HomePage">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.abstech.airface.HomePage@57d7f8ca]" started-at="2021-06-06T16:52:10 IST" name="setUP" finished-at="2021-06-06T16:52:16 IST" duration-ms="6334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="loginpage3rddata(java.lang.String,java.lang.String)[pri:3, instance:com.abstech.airface.HomePage@57d7f8ca]" started-at="2021-06-06T16:52:16 IST" name="loginpage3rddata" description="Verifay give the right data" data-provider="AirfaceData" finished-at="2021-06-06T16:52:20 IST" duration-ms="3762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumarnayak9178@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bikash07@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage3rddata -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.abstech.airface.HomePage@57d7f8ca]" started-at="2021-06-06T16:52:20 IST" name="tearDown" finished-at="2021-06-06T16:52:22 IST" duration-ms="2166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.abstech.airface.HomePage -->
+    </test> <!-- HomePage -->
+    <test started-at="2021-06-06T16:52:22 IST" name="location" finished-at="2021-06-06T16:55:23 IST" duration-ms="180585">
+      <class name="settings.LocationPage">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:settings.LocationPage@e15b7e8]" started-at="2021-06-06T16:52:22 IST" name="setUP" finished-at="2021-06-06T16:52:27 IST" duration-ms="4829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="loginpage3rddata(java.lang.String,java.lang.String)[pri:0, instance:settings.LocationPage@e15b7e8]" started-at="2021-06-06T16:52:27 IST" name="loginpage3rddata" description="Verifay give the right data" data-provider="AirfaceData" finished-at="2021-06-06T16:52:31 IST" duration-ms="4130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumarnayak9178@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bikash07@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage3rddata -->
+        <test-method signature="addLocation(java.util.Map)[pri:1, instance:settings.LocationPage@e15b7e8]" started-at="2021-06-06T16:52:32 IST" name="addLocation" description="verifayed location page" data-provider="getLocattiondata" finished-at="2021-06-06T16:55:22 IST" duration-ms="169446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{testname=addLocation, execute=yes, EmpLocation=Odisha}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addLocation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:settings.LocationPage@e15b7e8]" started-at="2021-06-06T16:55:22 IST" name="tearDown" finished-at="2021-06-06T16:55:23 IST" duration-ms="857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- settings.LocationPage -->
+    </test> <!-- location -->
+    <test started-at="2021-06-06T16:55:23 IST" name="employee" finished-at="2021-06-06T16:56:12 IST" duration-ms="49136">
+      <class name="com.abstech.airface.EmployeePage">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.abstech.airface.EmployeePage@5b03b9fe]" started-at="2021-06-06T16:55:23 IST" name="setUP" finished-at="2021-06-06T16:55:28 IST" duration-ms="5322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="loginpage3rddata(java.lang.String,java.lang.String)[pri:0, instance:com.abstech.airface.EmployeePage@5b03b9fe]" started-at="2021-06-06T16:55:28 IST" name="loginpage3rddata" description="Verifay give the right data" data-provider="AirfaceData" finished-at="2021-06-06T16:55:37 IST" duration-ms="8852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumarnayak9178@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bikash07@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage3rddata -->
+        <test-method signature="employee()[pri:1, instance:com.abstech.airface.EmployeePage@5b03b9fe]" started-at="2021-06-06T16:55:37 IST" name="employee" description="add a employee and check it is inshert or not" finished-at="2021-06-06T16:56:11 IST" duration-ms="34076" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.abstech.airface.EmployeePage@5b03b9fe]" started-at="2021-06-06T16:56:11 IST" name="tearDown" finished-at="2021-06-06T16:56:12 IST" duration-ms="873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.abstech.airface.EmployeePage -->
+    </test> <!-- employee -->
+  </suite> <!-- Airface -->
+</testng-results>
